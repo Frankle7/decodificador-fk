@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: auto;
+  background-color: #f3f5fc;
+}
+
+header {
+  width: 100%;
+  height: 10rem;
+  background-color: rgb(12, 14, 14);
+  display: flex;
+  justify-content: center;
+}
+
+.menus {
+  width: 100%;
+  display: flex;
+  align-items: center;
+justify-content: space-around;}
+
+/*.menuEsquerda {
+  background-color: aqua;
+}
+
+.menu_direita {
+  background-color: rgb(52, 12, 40);
+}*/
+
+.redesSociais {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+.socialnetworks {
+  width: 4rem;
+  height: 4rem;
+  flex-direction: row;
+}
+.socialnetworks a {
+  font-family: "Inter";
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.socialnetworks img {
+  width: 100%;
+  height: 100%;
+}
+.socialnetworks img:hover {
+  background-color: #0a3871;
+  border-radius: 35%;
+}
+.socialnetworks a:hover {
+  color: #0a3871;
+  text-shadow: 0.1em 0.1em #f3f5fc;
+}
+
+.acessar {
+  width: 10rem;
+  height: 3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: flex;
+  text-align: center;
+}
+.acessar a {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 19px;
+  padding: 10px;
+  text-decoration: none;
+}
+.acessar:hover {
+  background-color: #0a3871;
+}
+.acessar a:hover {
+  color: #f3f5fc;
+}
+
+.container {
+  margin-top: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contaner_esquerq{
+  width: 43.5rem;
+  height: 600px;
+  margin-top: 8px;
+  background-color: #ffffff;
+  padding-left: 0.5rem; 
+  border-radius: 1rem;
+  
+}
+
+.input_search {
+  width: 90%;
+  height: auto;
+  color: #59708b;
+  padding: 2rem;
+}
+.input_search p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+}
+
+.paidetds {
+  width: 60%;
+  padding: 40.5rem 0 3rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert_input {
+  width: 14.25;
+  height: 1.125;
+  display: flex;
+  gap: 0.5rem;
+}
+.alert_input p {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #495057;
+  opacity: 0.8;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 7rem;
+}
+.input_button {
+  width: 27rem;
+  height: 4.188rem;
+  border-radius: 0px;
+  padding: 1.5rem 5rem;
+  background: #0a3871;
+  border-radius: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.input_button a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: Inter;
+}
+.input_button:hover {
+  background-color: rgb(9, 15, 74);
+  border-color: aliceblue;
+  cursor: pointer;
+}
+#btn2 {
+  background-color: #565e68;
+  color: #ffffff;
+  border-color: black;
+}
+#btn3 {
+  background-color: #565e68;
+  color: #ffffff;
+  border-color: black;
+}
+
+#btn2 a {
+  color: #ffffff;
+  font-family: Inter;
+}
+#btn2:hover {
+  background-color: rgb(9, 15, 74);
+  border-color: rgb(240, 249, 249);
+}
+
+.modal_rigth {
+  width: 400px;
+  height: 844px;
+  background-color: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  border-radius: 32px;
+}
+.modal_rigth img{
+padding-top: 3rem;
+}
+.txt {
+  width: 90%;
+  height: auto;
+  padding-top: 2rem;
+  font-size: 23px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+padding-left: 5%;
+}
+
+.txt p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+.txt h1 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+}
